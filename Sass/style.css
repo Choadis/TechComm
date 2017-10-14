@@ -1,3 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.bar {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 5px; }
+
+.burger {
+  width: 35px;
+  height: 35px;
+  padding: 2px;
+  margin: auto;
+  cursor: pointer; }
+
+.ddmenu {
+  display: none;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: #ffab00;
+  min-width: 200px;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid black; }
+
+.link {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px 0;
+  color: #064159; }
+
+.nav {
+  height: auto;
+  width: auto;
+  margin-right: 30px;
+  position: relative;
+  display: inline-block; }
+
+.nav:hover .ddmenu {
+  display: block; }
+
+.logo, .logo2 {
+  display: inline;
+  color: #064159;
+  font: 21px "Lato", Arial, sans-serif;
+  letter-spacing: 2.1px; }
+
+.logo2 {
+  font-weight: bold; }
+
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffab00; }
+
+.pad {
+  padding: 22px 94px 21px 24px; }
 
 /*# sourceMappingURL=style.css.map */
