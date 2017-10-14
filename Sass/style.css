@@ -41,6 +41,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.hero {
+  background: url(image/hero.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 320px;
+  height: 528px; }
+
+.herotext {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 36px;
+  color: #efe9d8;
+  margin: auto; }
+
 .bar {
   width: 20px;
   height: 3px;
@@ -67,7 +80,7 @@ table {
 
 .link {
   display: block;
-  font-size: 15px;
+  font-size: 21px;
   text-decoration: none;
   padding: 20px 0 5px;
   color: #064159; }
