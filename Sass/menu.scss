@@ -27,7 +27,7 @@
   display: block;
   font-size: 15px;
   text-decoration: none;
-  margin: 10px 0;
+  padding: 20px 0 5px;
   color: #064159;
 }
 .nav{
@@ -40,7 +40,12 @@
 .nav:hover .ddmenu {
   	display: block;
   }
-  .logo{
+.link:hover{
+    height: 20px;
+    width: auto;
+    background-color: #eb503c;
+  }
+.logo{
     display: inline;
     color: #064159;
     font: 21px $lato;
