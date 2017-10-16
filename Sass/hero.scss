@@ -1,13 +1,19 @@
 .hero{
-  background: url(image/hero.jpg);
+  background: url('../image/hero.jpg');
   background-repeat: no-repeat;
   text-align: center;
   width: 320px;
-	height: 528px;
+	height: 360px;
 }
 .herotext{
   font-family: $lato;
   font-size: 36px;
   color: #efe9d8;
   margin: auto;
+  height: 153px;
+  width: 244px;
+  padding: 90px 25px 55px 35px;
+}
+.bodyspace{
+  padding: 55px 33px 55px 27px;
 }

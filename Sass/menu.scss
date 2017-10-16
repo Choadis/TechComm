@@ -30,9 +30,9 @@
   color: #064159;
 }
 .nav{
-  height: auto;
+    height: auto;
   	width: auto;
-  	margin-right: 30px;
+  	margin: 10px 20px 0 0;
   	position: relative;
   	display: inline-block;
 }
@@ -44,16 +44,6 @@
     width: auto;
     background-color: #eb503c;
   }
-.logo{
-    display: inline;
-    color: #064159;
-    font: 21px $lato;
-    letter-spacing: 2.1px;
-  }
-.logo2{
-  @extend .logo;
-  font-weight: bold;
-}
 .header{
   height: 60px;
   width: 100%;
@@ -61,7 +51,4 @@
   align-items: center;
   justify-content: space-between;
   background-color: #ffab00;
-}
-.pad{
-  padding:22px 94px 21px 24px;
 }
