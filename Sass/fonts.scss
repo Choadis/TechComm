@@ -1,0 +1,32 @@
+.logo{
+  width: 202px;
+	height: 15px;
+    display: inline;
+    color: #064159;
+    font: 21px $lato;
+    letter-spacing: 2.1px;
+    padding: 22px 0px 21px 10px;
+
+  }
+.logo2{
+  @extend .logo;
+  font-weight: bold;
+  padding: 0px;
+}
+.texthead{
+  font: $droid, 18px;
+  text-align: left;
+  line-height: 28px;
+  letter-spacing: .9;
+  font-weight: bold;
+  color: #021d2c;
+}
+.content{
+  font-family: $droid;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  letter-spacing: .8;
+  color: #021d2c;
+  padding: 15px 0 15px;
+}
