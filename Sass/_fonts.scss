@@ -20,7 +20,7 @@
   line-height: 28px;
   letter-spacing: .9;
   font-weight: bold;
-  color: #021d2c;
+  color: #4e1c07;
 }
 .content{
   font-family: $droid;
@@ -88,4 +88,44 @@
 	text-align: center;
 	color: #6f8998;
   padding: 25px 75px 31px;
+  background-color: white;
+}
+.meet-text{
+  font-size: 21px;
+  font-family: $droid;
+  font-weight: bold;
+  color: #4c1a14;
+  line-height: 36px;
+  margin: 0 36px 69px 25px;
+}
+section{
+  .upcoming{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+.value{
+  margin: 0px 21px 50px 18px;
+}
+.core{
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: $droid;
+  color: #4e1c07;
+}
+.value-head{
+  font-size: 18px;
+  line-height: 24px;
+  font-family: $droid;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 24px;
+  padding: 15px 0 5px;
+}
+.value-content{
+  @extend .value-head;
+  font-weight: normal;
+  font-style: normal;
+  padding: 0;
 }

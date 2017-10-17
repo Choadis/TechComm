@@ -41,6 +41,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.whitebg {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px; }
+
+body {
+  min-width: 320px; }
+
 .logo, .logo2 {
   width: 202px;
   height: 15px;
@@ -61,7 +70,7 @@ table {
   line-height: 28px;
   letter-spacing: .9;
   font-weight: bold;
-  color: #021d2c; }
+  color: #4e1c07; }
 
 .content {
   font-family: "Droid Serif", Arial, sans-serif;
@@ -128,14 +137,52 @@ table {
   letter-spacing: 0.8px;
   text-align: center;
   color: #6f8998;
-  padding: 25px 75px 31px; }
+  padding: 25px 75px 31px;
+  background-color: white; }
+
+.meet-text {
+  font-size: 21px;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: bold;
+  color: #4c1a14;
+  line-height: 36px;
+  margin: 0 36px 69px 25px; }
+
+section .upcoming {
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+.value {
+  margin: 0px 21px 50px 18px; }
+
+.core {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: "Droid Serif", Arial, sans-serif;
+  color: #4e1c07; }
+
+.value-head, .value-content {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 24px;
+  padding: 15px 0 5px; }
+
+.value-content {
+  font-weight: normal;
+  font-style: normal;
+  padding: 0; }
 
 .hero {
   background: url("../image/hero.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  width: 320px;
-  height: 360px; }
+  width: 100%;
+  height: 100%; }
 
 .herotext {
   font-family: "Lato", Arial, sans-serif;
@@ -153,12 +200,12 @@ table {
   padding: 55px 33px 55px 27px; }
 
 .rectangle {
-  height: 923px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
   background-color: #ffc400; }
 
 .divider {
-  width: 302px;
+  width: 95%;
   height: 1px;
   background-color: #ee3e28;
   margin: 0 auto; }
@@ -167,6 +214,9 @@ table {
   height: 149px;
   width: 256px;
   padding: 15px 127px 15px 26px; }
+
+.space2 {
+  margin-bottom: 50px; }
 
 .bar {
   width: 20px;
@@ -221,5 +271,17 @@ table {
   align-items: center;
   justify-content: space-between;
   background-color: #ffab00; }
+
+.button {
+  width: 219px;
+  height: 54px;
+  background-color: #eb503c;
+  margin: 15px auto; }
+
+.button-space {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 3; }
 
 /*# sourceMappingURL=style.css.map */
