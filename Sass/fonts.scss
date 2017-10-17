@@ -14,7 +14,8 @@
   padding: 0px;
 }
 .texthead{
-  font: $droid, 18px;
+  font-family: $droid;
+  font-size: 18px;
   text-align: left;
   line-height: 28px;
   letter-spacing: .9;
@@ -28,5 +29,63 @@
   line-height: 24px;
   letter-spacing: .8;
   color: #021d2c;
-  padding: 15px 0 15px;
+  padding: 15px 0 15px
+}
+.upcoming {
+	width: 167px;
+	height: 11px;
+	font-family: $lato;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+	text-align: left;
+	color: #eb503c;
+  padding: 25px 127px 15px 26px;
+}
+.why{
+  font-family: $droid;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: .9px;
+  text-align: left;
+  color: #4c1a14;
+}
+.when{
+  font-family: $lato;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: .9;
+  text-align: left;
+}
+.where{
+  font-family: $lato;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: .8px;
+  text-align: left;
+}
+.rsvp{
+  font-family: $lato;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: .8px;
+  line-height: 36px;
+  text-align: left;
+  text-decoration: none;
+  padding-right: 40px;
+  color: #4e1c07;
+}
+.footer {
+	width: 172px;
+	height: 39px;
+	font-family: $lato;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.8px;
+	text-align: center;
+	color: #6f8998;
+  padding: 15px 75px 31px;
 }

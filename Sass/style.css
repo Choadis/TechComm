@@ -55,7 +55,8 @@ table {
   padding: 0px; }
 
 .texthead {
-  font: "Droid Serif", Arial, sans-serif, 18px;
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-size: 18px;
   text-align: left;
   line-height: 28px;
   letter-spacing: .9;
@@ -70,6 +71,64 @@ table {
   letter-spacing: .8;
   color: #021d2c;
   padding: 15px 0 15px; }
+
+.upcoming {
+  width: 167px;
+  height: 11px;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #eb503c;
+  padding: 25px 127px 15px 26px; }
+
+.why {
+  font-family: "Droid Serif", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: .9px;
+  text-align: left;
+  color: #4c1a14; }
+
+.when {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: .9;
+  text-align: left; }
+
+.where {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: .8px;
+  text-align: left; }
+
+.rsvp {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: .8px;
+  line-height: 36px;
+  text-align: left;
+  text-decoration: none;
+  padding-right: 40px;
+  color: #4e1c07; }
+
+.footer {
+  width: 172px;
+  height: 39px;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #6f8998;
+  padding: 15px 75px 31px; }
 
 .hero {
   background: url("../image/hero.jpg");
@@ -102,6 +161,11 @@ table {
   width: 302px;
   height: 1px;
   background-color: #ee3e28; }
+
+.box {
+  height: 149px;
+  width: 256px;
+  padding: 15px 127px 15px 26px; }
 
 .bar {
   width: 20px;
