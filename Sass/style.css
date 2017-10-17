@@ -123,12 +123,12 @@ table {
   width: 172px;
   height: 39px;
   font-family: "Lato", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 14px;
+  line-height: 20px;
   letter-spacing: 0.8px;
   text-align: center;
   color: #6f8998;
-  padding: 15px 75px 31px; }
+  padding: 25px 75px 31px; }
 
 .hero {
   background: url("../image/hero.jpg");
@@ -160,7 +160,8 @@ table {
 .divider {
   width: 302px;
   height: 1px;
-  background-color: #ee3e28; }
+  background-color: #ee3e28;
+  margin: 0 auto; }
 
 .box {
   height: 149px;
