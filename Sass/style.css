@@ -62,6 +62,12 @@ table {
   height: 100%;
   padding: 43px 19px 71px 20px; }
 
+.techbox {
+  padding: 61px 33px 50px 19px; }
+
+.prinbox {
+  padding: 50px 50px 39px 19px; }
+
 body {
   min-width: 320px; }
 
