@@ -248,11 +248,6 @@ section .whitebg {
 .bodyspace {
   padding: 55px 33px 55px 27px; }
 
-.rectangle {
-  height: 100%;
-  width: 100%;
-  background-color: #ffc400; }
-
 .divider {
   width: 95%;
   height: 1px;
@@ -332,5 +327,32 @@ section .whitebg {
   font-size: 18px;
   text-align: center;
   line-height: 3; }
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: none; }
+
+  .rectangle {
+    width: 90%;
+    height: 385px;
+    z-index: 1;
+    margin-left: 80px;
+    position: absolute;
+    top: 300px; }
+
+  .block {
+    display: inline; }
+
+  .divider {
+    height: 95%;
+    width: 1px;
+    z-index: 1; }
+
+  .block .content {
+    width: 50%;
+    z-index: 1; }
+
+  .bodyspace .texthead {
+    width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
