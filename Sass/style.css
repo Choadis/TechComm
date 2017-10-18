@@ -41,11 +41,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.rectangle {
+  height: 100%;
+  width: 100%;
+  background-color: #ffc400; }
+
 .whitebg {
   background-color: white;
   height: 100%;
   width: 100%;
   padding-top: 50px; }
+
+.core-purpose {
+  height: 230px;
+  width: 100%;
+  background-color: beige; }
+
+.code-list {
+  width: 90%;
+  height: 100%;
+  padding: 43px 19px 71px 20px; }
 
 body {
   min-width: 320px; }
@@ -178,6 +193,23 @@ section .upcoming {
 
 .footer-box {
   padding-top: 30px; }
+
+.core-purpose .value {
+  padding: 63px 35px 52px 19px; }
+
+.value .core {
+  padding-bottom: 20px; }
+
+section .whitebg {
+  padding: 0; }
+
+.code-list .content {
+  margin: 0;
+  line-height: 24px;
+  padding: 20px 0 0; }
+
+.code-list .value-head, .code-list .value-content {
+  padding-bottom: 0; }
 
 .hero {
   background: url("../image/hero.jpg");
