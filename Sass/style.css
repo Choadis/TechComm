@@ -68,6 +68,14 @@ table {
 .prinbox {
   padding: 50px 50px 39px 19px; }
 
+.calebox {
+  height: 100%;
+  width: 100%;
+  padding: 50px 34px 0 29px; }
+
+article .divider {
+  margin-top: 50px; }
+
 body {
   min-width: 320px; }
 
