@@ -357,7 +357,9 @@ section .whitebg {
     height: 100%; }
 
   .footer-box {
-    display: inline; }
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%; }
 
   .bodyspace .texthead {
     width: auto; } }
