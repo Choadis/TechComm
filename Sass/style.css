@@ -300,6 +300,7 @@ section .whitebg {
 
 .ddmenu {
   display: none;
+  height: auto;
   position: absolute;
   right: 0;
   padding: 10px;
