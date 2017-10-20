@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px){
   body{
-    max-width: none;
+    max-width: 100%;
   }
 .rectangle{
   width: 90%;
@@ -78,5 +78,17 @@ display: flex;
 }
 .core-purpose{
   width: 99%;
+}
+.hide2{
+  display: none;
+}
+.redboxes{
+  .why{
+    color: white;
+  }
+  .when{
+    color: white;
+    font-weight: normal;
+  }
 }
 }

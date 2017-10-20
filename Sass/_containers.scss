@@ -38,3 +38,25 @@ article{
 .hide{
   display: none;
 }
+.redboxes{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.getinv{
+  background-color: #eb503c;
+  height: auto;
+  width: 25%;
+  padding: 69px 90px 96px 87px;
+}
+.start{
+  padding: 70px 108px 96px 46px;
+  background-color: #a13729;
+  width: 45%;
+}
+.redboxes{
+  .whitebg{
+    width: 25%;
+  }
+}
