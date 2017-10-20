@@ -76,6 +76,9 @@ table {
 article .divider {
   margin-top: 50px; }
 
+.hide {
+  display: none; }
+
 body {
   min-width: 320px; }
 
@@ -339,7 +342,8 @@ section .whitebg {
     margin: 0 5%;
     position: relative;
     top: -50px;
-    display: flex; }
+    display: flex;
+    max-height: 600px; }
 
   .block {
     display: inline; }
@@ -357,9 +361,51 @@ section .whitebg {
     height: 100%; }
 
   .footer-box {
-    display: inline; }
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%; }
 
   .bodyspace .texthead {
-    width: auto; } }
+    width: auto; }
+
+  .space2 {
+    display: flex; }
+
+  .button {
+    margin: 20px 20px; }
+
+  .col {
+    display: inline-block; }
+
+  .calebox {
+    width: 24%;
+    height: auto; }
+
+  [class*="col-"] {
+    float: left; }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+  .meet-text {
+    display: block; }
+
+  .bodyspace {
+    width: 48%;
+    margin-top: -20px; }
+
+  .whitebg {
+    display: flex; }
+
+  .hide {
+    display: inline; }
+
+  .value {
+    width: 70%; }
+
+  .core-purpose {
+    width: 99%; } }
 
 /*# sourceMappingURL=style.css.map */
