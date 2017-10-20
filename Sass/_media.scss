@@ -10,6 +10,7 @@
   position: relative;
   top: -50px;
   display: flex;
+  max-height: 500px;
 }
 .block{
   display: inline;
@@ -37,5 +38,45 @@
 .texthead{
   width: auto;
 }
+}
+.space2{
+display: flex;
+}
+.button{
+  margin: 20px 20px;
+}
+.col{
+  display: inline-block;
+}
+.calebox{
+  width: 24%;
+  height: auto;
+}
+[class*="col-"]{
+  float: left;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.meet-text{
+  display: block;
+}
+.bodyspace{
+  width: 48%;
+  margin-top: -20px;
+}
+.whitebg{
+  display: flex;
+}
+.hide{
+  display: inline;
+}
+.value{
+  width: 70%;
+}
+.core-purpose{
+  width: 99%;
 }
 }
